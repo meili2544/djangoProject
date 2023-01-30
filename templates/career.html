@@ -1,0 +1,22 @@
+{% extends 'base.html' %}
+{% block content %}
+    {% load static %}
+    <div class="rounded m-3" style="background-color: lightgray; height: 100%;">
+
+        <div class="d-flex pt-3 bd-highlight">
+            <div class="p-2 bg-dark flex-fill text-white" style="font-family: 'Prompt', sans-serif;">
+             <h2><img src="{% static '' %}" alt="police" width="75px"> อาชีพที่ใฝ่ฝันในอนาคต</h2>
+            </div>
+        </div>
+        <div >
+            <img src="{% static 'images/main.png.' %}" class="rounded mx-auto pt-3 d-block" alt="pg" style="max-width:250%; height:auto;">
+        </div>
+        <div class="m-3 pt-3 fs-5" style="font-family: 'Prompt', sans-serif;">
+            <p><b>&emsp; ตำรวจ ตำรวจสายอำนวยการ(police)</b></p>
+            <p>&emsp;&emsp;ฝ่ายอำนวยการ  เพราะความชอบส่วนตัว มีหน้าที่และความรับผิดชอบเกี่ยวกับงานบริหารงานบุคคล  งานธุรการ  งานสารบรรณ
+                  งานประชาสัมพันธ์ งานงบประมาณ  งานการเงินและพัสดุ งานสื่อสาร ช่วยเหลือประชาชนในหน้าที่ตำรวจ</p>
+        </div>
+
+
+    </div>
+{% endblock %}

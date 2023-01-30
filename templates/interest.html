@@ -1,0 +1,55 @@
+{% extends 'base.html' %}
+{% block content %}
+    {% load static %}
+    <div class="rounded m-3" style="background-image: url({% static 'images/game.jpeg' %});background-position:center top; height: 100%;">
+        <div class="d-flex pt-3 bd-highlight">
+            <div class="p-2 bg-dark flex-fill text-white" style="font-family: 'Prompt', sans-serif;">
+                <h2>ข้อมูลสิ่งที่สนใจ</h2>
+            </div>
+        </div>
+        <div class="row mx-3 pt-3">
+            <div class="col-lg-4">
+            <div class="card" style="width:250px">
+                <div class="card-header bg-dark text-white">
+                    <h3>Run</h3>
+                </div>
+            <img class="card-img-top" src="{% static 'images/run.jpg' %}" alt="Card image" style="width:100%;">
+            <div class="card-body">
+                <h4 class="card-title"><b>jogging</b></h4>
+                <p class="card-text"><b>&emsp; สร้างความแข็งแรงของกล้ามเนื้อและกระดูก  ลดความเครียด
+ช่วยให้ความจำดีขึ้น เสริมสร้างความมั่นใจ.
+                   </b></p>
+            </div>
+            </div>
+            </div>
+
+            <div class="col-lg-4">
+            <div class="card" style="width:250px">
+                <div class="card-header bg-dark text-white">
+                    <h3>Netfiix</h3>
+                </div>
+            <img class="card-img-top" src="{% static 'images/netflix.png' %}" alt="Card image" style="width:100%;">
+            <div class="card-body">
+                <h4 class="card-title"><b>Netflix Video</b></h4>
+                <p class="card-text"><b> Netflix & Game เพื่อความบันเทิง สบายใจผ่อนคลาย </b></p>
+            </div>
+            </div>
+            </div>
+
+             <div class="col-lg-4">
+            <div class="card" style="width:250px">
+                <div class="card-header bg-dark text-white">
+                    <h3>Read</h3>
+                </div>
+            <img class="card-img-top" src="{% static 'images/rrrr.jpg' %}" alt="Card image" style="width:100%;">
+            <div class="card-body">
+                <h4 class="card-title"><b>Watch Movies</b></h4>
+                <p class="card-text"><b> law cartoon knowledge กฎหมาย เป็นระบบของกฎและแบบแผนแนวทางปฏิบัติซึ่งบังคับใช้ผ่านสถาบันทางสังคมเพื่อควบคุมพฤติกรรม
+                    ในทุกที่ที่เป็นไปได้</b></p>
+            </div>
+            </div>
+            </div>
+        </div>
+    </div>
+
+{% endblock %}

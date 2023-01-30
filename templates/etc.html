@@ -1,0 +1,29 @@
+{% extends 'base.html' %}
+{% block content %}
+    {% load static %}
+    <div class="rounded m-3" style="background-image: url({% static 'images/redgem.jpg' %}); background-position: bottom right; height: 100%;">
+
+        <div class="d-flex pt-3 bd-highlight">
+            <div class="p-2 bg-dark flex-fill text-white" style="font-family: 'Prompt', sans-serif;">
+             <h2><img src="{% static 'images/Contacts.png' %}" alt="com" width="75px"> Contact me</h2>
+            </div>
+        </div>
+
+        <div class="row pt-5 justify-content-md-center text-center" style="font-family: 'Mochiy Pop P One', sans-serif;">
+            <div class="col-lg-6">
+                <a href="https://web.facebook.com/profile.php?id=100027470752228" class="btn btn-outline-dark">
+                    <img src="{% static 'images/fb1.png'%}" width="200px" alt="fb">
+                    <h5>Facebook</h5>
+                </a>
+            </div>
+            <div class="col-lg-4">
+                 <a href="https://www.instagram.com/meili_li_//" class="btn btn-outline-dark">
+                    <img src="{% static 'images/ig.png'%}" width="200px" alt="fb">
+                    <h5>Instagram</h5>
+                </a>
+            </div>
+        </div>
+
+
+    </div>
+{% endblock %}

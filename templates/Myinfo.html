@@ -1,0 +1,43 @@
+{% extends 'base.html' %}
+{% block content %}
+    {% load static %}
+    <div class="rounded m-3 fs-6" style="background-color: white; height: 100%; font-family: 'Prompt', sans-serif;">
+        <div class="d-flex pt-3 bd-highlight">
+            <div class="p-2 bg-dark flex-fill text-white" style="font-family: 'Mochiy Pop P One', sans-serif;">
+             <h2><img src="{% static 'images/Profile1.png' %}" alt="com" width="75px">MyInfo</h2>
+            </div>
+        </div>
+        <div class="m-2 pt-2">
+            <img src="{% static 'images/po_n.jpg' %}" class="rounded float-end img-thumbnail border border-info" alt="mypic" width="300">
+         <div class="row pt-3">
+          <div class="col-lg-5">
+            <b>
+                <p>นางสาวสิริยากร วรสุทธิ์</p>
+              <p>ชื่อเล่น เหมยลี่</p>
+              <p>เกิดวันที่ 09 06 2544</p>
+              <p>อายุ 21ปี</p>
+              <p>ที่อยู่ 69 หมู่ 18บ้านโคกม่วงม่วงทอง ต.นากอก</p>
+              <p>อ.ศรีบุญเรือง จ.หนองบัวลำภู 39180</p>
+              <br>
+              <p>บิดา: นายคำวัง วรสุทธิ์</p>
+              <p>มารดา:นางสาวปัทถา บุญประคม</p>
+            </b>
+          </div>
+             <div class="col-lg-5">
+                 <b>
+                 <p>Nick Miss. Siriyakorn Worasut</p>
+                 <p>NickName Meili</p>
+                 <p>Date of Birth 09 june</p>
+                 <p>Age 21 Years old</p>
+                 <p>69 Moo 18, Ban kokpurple,purplegold, otter Subdistrict</p>
+                 <p>Muang Sriboonruang, Nong Bua Lamphu Province 39180</p>
+                 <br>
+                 <p>Father: Mr. Khamwang Worasut </p>
+                 <p>Mother: Miss. Pattha Bunprakhom</p>
+                 </b>
+             </div>
+         </div>
+
+        </div>
+    </div>
+{% endblock %}
